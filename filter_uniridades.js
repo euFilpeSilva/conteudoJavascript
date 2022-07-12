@@ -10,7 +10,7 @@ usuarios =[
  { nome: 'Marcos', idade: 20, empresa: 'Rocketseat' }
 ]
 
-// Object.assign: copia os dados e substitue os iguais de um objeto por outro novo.
+// Object.assign: copia os dados e sobrescreve os iguais.
 
 let resultado = usuarios.filter(function(n) {
     return n.idade * 2 <= 50? Object.assign(n, {idade: n.idade * 2}): null;
