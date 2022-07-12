@@ -1,7 +1,7 @@
 // com this
-const orange = {
+/*const orange = {
 	price: 2,
-};
+};*/
 
 const apple = {
 	price: 1.5,
